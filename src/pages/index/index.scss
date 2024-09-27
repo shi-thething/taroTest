@@ -1,0 +1,22 @@
+// .index {
+    .list {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        .item {
+            height: calc(100vh - 50px);
+            background: red;
+        }
+    }
+    .nav {
+        position: sticky;
+        top: 0;
+        display: flex;
+        gap: 20px;
+        .nav-item {
+            background: blue;
+            flex: 1;
+            height: 50px;
+        }
+    }
+// }
